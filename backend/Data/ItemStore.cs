@@ -12,11 +12,12 @@ public class ItemStore
 
     public ItemStore()
     {
-        // 👉 PASO .NET: reemplaza estos datos de ejemplo por los de TU idea.
-        Seed(new Item(0, "Café Nariño 500 g", "Notas a panela y cítricos, tostión media.", "Café", 42000));
-        Seed(new Item(0, "Café Huila 250 g", "Dulce, cuerpo medio, ideal para método V60.", "Café", 28000));
-        Seed(new Item(0, "Prensa francesa", "Cafetera de 600 ml en vidrio y acero.", "Accesorios", 89000));
-        Seed(new Item(0, "Molino manual", "Molienda ajustable en cerámica.", "Accesorios", 120000));
+        // Libros de ejemplo de Páginas Vivas.
+        Seed(new Item(0, "Cien años de soledad", "La historia de la familia Buendía en el pueblo de Macondo.", "Realismo mágico", 65000, 4.8));
+        Seed(new Item(0, "El principito", "Un pequeño príncipe viaja por planetas y descubre lo esencial.", "Fábula", 32000, 4.7));
+        Seed(new Item(0, "1984", "Un futuro donde el Gran Hermano vigila cada paso.", "Ciencia ficción", 48000, 4.6));
+        Seed(new Item(0, "El nombre del viento", "Kvothe cuenta su vida, desde artista itinerante hasta leyenda.", "Fantasía", 15000, 4.5));
+        Seed(new Item(0, "Sapiens", "Una breve historia de la humanidad, de cazadores a la era digital.", "Divulgación", 12000, 4.3));
     }
 
     public IEnumerable<Item> GetAll() => _items.Values.OrderBy(i => i.Id);

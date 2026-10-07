@@ -1,5 +1,5 @@
 namespace KataryApi.Models;
 
-// 👉 PASO .NET: agrega aquí una propiedad que tenga sentido para tu proyecto
-//    (ej: int Stock, double Rating, string Origin, int Minutes).
-public record Item(int Id, string Name, string Description, string Category, decimal Price);
+// Un libro de Páginas Vivas: Name = título, Category = género, Price = venta o préstamo.
+// Rating: calificación de los lectores, de 1 a 5.
+public record Item(int Id, string Name, string Description, string Category, decimal Price, double Rating);
