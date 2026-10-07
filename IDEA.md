@@ -3,21 +3,25 @@
 > Completa este archivo con ayuda de tu asistente de código. Él lo lee antes de cada tarea (ver AGENTS.md).
 
 ## ¿Qué es?
-<!-- Una frase. Ej: Tienda online de café de especialidad colombiano. -->
+Una biblioteca digital donde puedes encontrar libros para comprar o pedir prestados.
 
 ## ¿Para quién?
-<!-- Quién lo va a usar. -->
+Lectores en general: jóvenes y adultos que buscan libros de cualquier género.
 
 ## Elementos que maneja
-<!-- Qué guarda tu proyecto y sus campos. Ej: Productos con nombre, descripción, categoría y precio. -->
+Libros, con estos campos:
+- Título (el `nombre` de la plantilla)
+- Descripción
+- Género (la `categoría` de la plantilla)
+- Precio de venta o préstamo (el `precio` de la plantilla)
 
 ## Dato extra
-<!-- Un campo nuevo que tendrá cada elemento, con su tipo. Ej: stock (número entero). -->
+rating (número decimal de 1 a 5): la calificación que le dan los lectores al libro.
 
 ## Marca
-- Nombre:
-- Eslogan:
-- Color principal (hex):
+- Nombre: Páginas Vivas
+- Eslogan: Cada libro, una nueva aventura
+- Color principal (hex): #166534
 
 ## Asistente de mi producto (bonus)
-<!-- Qué haría el chat dentro de tu app. Ej: Recomienda cafés según el gusto del cliente. -->
+Recomienda tu próxima lectura según tus gustos, los géneros que prefieres y el rating de los libros.

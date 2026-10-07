@@ -1,8 +1,8 @@
-// 👉 PASO React: ponle la marca de TU proyecto.
+// Marca de Páginas Vivas (ver IDEA.md).
 export const config = {
-  brandName: "Café Andino",
-  tagline: "Café de especialidad colombiano, directo de la finca a tu taza.",
-  accentColor: "#f28d27",
-  itemsTitle: "Nuestros productos",
+  brandName: "Páginas Vivas",
+  tagline: "Cada libro, una nueva aventura",
+  accentColor: "#166534",
+  itemsTitle: "Nuestros libros",
   agentName: "Lua",
 };
