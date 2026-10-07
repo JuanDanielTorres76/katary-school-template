@@ -33,7 +33,7 @@ export function AgentChat() {
 
   return (
     <aside className="card chat">
-      <h2>🤖 {config.agentName}</h2>
+      <h2>{config.agentName}</h2>
       <div className="messages">
         {messages.map((m, i) => (
           <p key={i} className={`bubble ${m.role}`}>

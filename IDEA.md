@@ -3,21 +3,21 @@
 > Completa este archivo con ayuda de tu asistente de código. Él lo lee antes de cada tarea (ver AGENTS.md).
 
 ## ¿Qué es?
-<!-- Una frase. Ej: Tienda online de café de especialidad colombiano. -->
+Tienda online (ecommerce) de ropa y accesorios.
 
 ## ¿Para quién?
-<!-- Quién lo va a usar. -->
+Jóvenes que compran moda online y buscan prendas y accesorios con estilo a buen precio.
 
 ## Elementos que maneja
-<!-- Qué guarda tu proyecto y sus campos. Ej: Productos con nombre, descripción, categoría y precio. -->
+Productos con nombre (el producto), descripción, categoría (agrupa productos similares, ej: Camisetas, Pantalones, Accesorios) y precio de venta.
 
 ## Dato extra
-<!-- Un campo nuevo que tendrá cada elemento, con su tipo. Ej: stock (número entero). -->
+stock (número entero): unidades disponibles del producto.
 
 ## Marca
-- Nombre:
-- Eslogan:
-- Color principal (hex):
+- Nombre: Urbana
+- Eslogan: Tu estilo, a un clic.
+- Color principal (hex): #2563eb
 
 ## Asistente de mi producto (bonus)
-<!-- Qué haría el chat dentro de tu app. Ej: Recomienda cafés según el gusto del cliente. -->
+Asesor de compras que recomienda productos del catálogo según el gusto, la ocasión y el presupuesto del cliente.
